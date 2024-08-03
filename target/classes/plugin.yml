@@ -1,0 +1,13 @@
+name: BrickThrower
+version: '1.0-SNAPSHOT'
+main: org.sincerityworld.brickthrower.BrickThrower
+api-version: '1.20'
+authors: [ G_Ban_Q ]
+description: Плагин предоставляет функционал для метания кирпичей с возможностью разбивания стекол при попадании.
+commands:
+  setbrikdamage:
+    usage: /setbrikdamage <кол-во урона>
+
+permissions:
+  admin.permission:
+    default: op
